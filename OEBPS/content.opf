@@ -2,13 +2,13 @@
 <package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
     <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	
-        <dc:title>Your Book Title Goes in Here</dc:title>
+        <dc:title>Gyakutenryoku ~Pinch wo Mate~</dc:title>
 		
         <dc:language>en</dc:language>
 		
         <dc:identifier id="uuid_id" opf:scheme="uuid">isbn-000-0-000-00000-0</dc:identifier>
-        <dc:creator>Your Author Name Here</dc:creator>
-        <dc:publisher>Your Publisher Name Here</dc:publisher>
+        <dc:creator>Sashihara Rino</dc:creator>
+        <dc:publisher>講談社</dc:publisher>
         <dc:date>2013-08-17</dc:date>
 		
         <meta name="cover" content="my-cover-image"/>
@@ -19,22 +19,22 @@
         <item href="Text/title.xhtml" id="title" media-type="application/xhtml+xml"/>
         <item href="Text/copyright.xhtml" id="copyright" media-type="application/xhtml+xml"/>
         <item href="Text/toc.xhtml" id="toc" media-type="application/xhtml+xml"/>
-        <item href="Text/dedication.xhtml" id="dedication" media-type="application/xhtml+xml"/>
-        <item href="Text/prologue.xhtml" id="prologue" media-type="application/xhtml+xml"/>
-        <item href="Text/chap01.xhtml" id="chap01" media-type="application/xhtml+xml"/>
-        <item href="Text/chap02.xhtml" id="chap02" media-type="application/xhtml+xml"/>
-        <item href="Text/chap03.xhtml" id="chap03" media-type="application/xhtml+xml"/>
-        <item href="Text/chap04.xhtml" id="chap04" media-type="application/xhtml+xml"/>
-        <item href="Text/chap05.xhtml" id="chap05" media-type="application/xhtml+xml"/>
-        <item href="Text/chap06.xhtml" id="chap06" media-type="application/xhtml+xml"/>
-        <item href="Text/chap07.xhtml" id="chap07" media-type="application/xhtml+xml"/>
-        <item href="Text/chap08.xhtml" id="chap08" media-type="application/xhtml+xml"/>
-        <item href="Text/chap09.xhtml" id="chap09" media-type="application/xhtml+xml"/>
+        <item href="Text/preface.xhtml" id="preface" media-type="application/xhtml+xml"/>
+        <item href="Text/chapter01-image.xhtml" id="chapter01-image" media-type="application/xhtml+xml"/>
+        <item href="Text/chapter01-title.xhtml" id="chapter01-title" media-type="application/xhtml+xml"/>
+        <item href="Text/chapter01.xhtml" id="chapter01" media-type="application/xhtml+xml"/>
+        <item href="Text/chapter02.xhtml" id="chapter02" media-type="application/xhtml+xml"/>
+        <item href="Text/chapter03.xhtml" id="chapter03" media-type="application/xhtml+xml"/>
+        <item href="Text/chapter04.xhtml" id="chapter04" media-type="application/xhtml+xml"/>
+        <item href="Text/chapter05.xhtml" id="chapter05" media-type="application/xhtml+xml"/>
+        <item href="Text/chapter06.xhtml" id="chapter06" media-type="application/xhtml+xml"/>
+        <item href="Text/chapter07.xhtml" id="chapter07" media-type="application/xhtml+xml"/>
+        <item href="Text/chapter08.xhtml" id="chapter08" media-type="application/xhtml+xml"/>
+        <item href="Text/chapter09.xhtml" id="chapter09" media-type="application/xhtml+xml"/>
         <item href="Text/epilogue.xhtml" id="epilogue" media-type="application/xhtml+xml"/>
         <item href="Text/biography.xhtml" id="biography" media-type="application/xhtml+xml"/>
-        <item href="Text/colophon.xhtml" id="colophon" media-type="application/xhtml+xml"/>
+        <item href="Text/endnotes.xhtml" id="biography" media-type="application/xhtml+xml"/>
         <item href="Text/backcover.xhtml" id="backcover" media-type="application/xhtml+xml"/>
-		
         <item href="Images/author.jpg" id="my-author-image" media-type="image/jpeg"/>
         <item href="Images/cover.jpg" id="my-cover-image" media-type="image/jpeg"/>
         <item href="Images/backcover.jpg" id="backcover-image" media-type="image/jpeg"/>
@@ -47,20 +47,21 @@
         <itemref idref="title"/>
         <itemref idref="copyright"/>
         <itemref idref="toc"/>
-        <itemref idref="dedication"/>
-        <itemref idref="prologue"/>
-        <itemref idref="chap01"/>
-        <itemref idref="chap02"/>
-        <itemref idref="chap03"/>
-        <itemref idref="chap04"/>
-        <itemref idref="chap05"/>
-        <itemref idref="chap06"/>
-        <itemref idref="chap07"/>
-        <itemref idref="chap08"/>
-        <itemref idref="chap09"/>
+        <itemref idref="preface"/>
+        <itemref idref="chapter01-image"/>
+        <itemref idref="chapter01-title"/>
+        <itemref idref="chapter01"/>
+        <itemref idref="chapter02"/>
+        <itemref idref="chapter03"/>
+        <itemref idref="chapter04"/>
+        <itemref idref="chapter05"/>
+        <itemref idref="chapter06"/>
+        <itemref idref="chapter07"/>
+        <itemref idref="chapter08"/>
+        <itemref idref="chapter09"/>
         <itemref idref="epilogue"/>
         <itemref idref="biography"/>
-        <itemref idref="colophon"/>
+        <itemref idref="endnotes"/>
         <itemref idref="backcover"/>
     </spine>
     <guide>

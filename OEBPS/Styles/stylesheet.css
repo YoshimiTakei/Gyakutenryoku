@@ -53,3 +53,18 @@ p {
 a {
   color: #FF3366;
 }
+
+.chapter-title-container {
+  margin-top: 16%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.caption {
+  margin-top: 7px;
+  width: 400px;  
+}
