@@ -23,13 +23,29 @@
         <item href="Text/chapter01-image.xhtml" id="chapter01-image" media-type="application/xhtml+xml"/>
         <item href="Text/chapter01-title.xhtml" id="chapter01-title" media-type="application/xhtml+xml"/>
         <item href="Text/chapter01.xhtml" id="chapter01" media-type="application/xhtml+xml"/>
+        <item href="Text/chapter02-image.xhtml" id="chapter02-image" media-type="application/xhtml+xml"/>
+        <item href="Text/chapter02-title.xhtml" id="chapter02-title" media-type="application/xhtml+xml"/>
         <item href="Text/chapter02.xhtml" id="chapter02" media-type="application/xhtml+xml"/>
+        <item href="Text/chapter03-image.xhtml" id="chapter03-image" media-type="application/xhtml+xml"/>
+        <item href="Text/chapter03-title.xhtml" id="chapter03-title" media-type="application/xhtml+xml"/>
         <item href="Text/chapter03.xhtml" id="chapter03" media-type="application/xhtml+xml"/>
+        <item href="Text/chapter04-image.xhtml" id="chapter04-image" media-type="application/xhtml+xml"/>
+        <item href="Text/chapter04-title.xhtml" id="chapter04-title" media-type="application/xhtml+xml"/>
         <item href="Text/chapter04.xhtml" id="chapter04" media-type="application/xhtml+xml"/>
+        <item href="Text/chapter05-image.xhtml" id="chapter05-image" media-type="application/xhtml+xml"/>
+        <item href="Text/chapter05-title.xhtml" id="chapter05-title" media-type="application/xhtml+xml"/>
         <item href="Text/chapter05.xhtml" id="chapter05" media-type="application/xhtml+xml"/>
+        <item href="Text/chapter06-image.xhtml" id="chapter06-image" media-type="application/xhtml+xml"/>
+        <item href="Text/chapter06-title.xhtml" id="chapter06-title" media-type="application/xhtml+xml"/>
         <item href="Text/chapter06.xhtml" id="chapter06" media-type="application/xhtml+xml"/>
+        <item href="Text/chapter07-image.xhtml" id="chapter07-image" media-type="application/xhtml+xml"/>
+        <item href="Text/chapter07-title.xhtml" id="chapter07-title" media-type="application/xhtml+xml"/>
         <item href="Text/chapter07.xhtml" id="chapter07" media-type="application/xhtml+xml"/>
+        <item href="Text/chapter08-image.xhtml" id="chapter08-image" media-type="application/xhtml+xml"/>
+        <item href="Text/chapter08-title.xhtml" id="chapter08-title" media-type="application/xhtml+xml"/>
         <item href="Text/chapter08.xhtml" id="chapter08" media-type="application/xhtml+xml"/>
+        <item href="Text/chapter09-image.xhtml" id="chapter09-image" media-type="application/xhtml+xml"/>
+        <item href="Text/chapter09-title.xhtml" id="chapter09-title" media-type="application/xhtml+xml"/>
         <item href="Text/chapter09.xhtml" id="chapter09" media-type="application/xhtml+xml"/>
         <item href="Text/epilogue.xhtml" id="epilogue" media-type="application/xhtml+xml"/>
         <item href="Text/biography.xhtml" id="biography" media-type="application/xhtml+xml"/>
@@ -50,13 +66,29 @@
         <itemref idref="chapter01-image"/>
         <itemref idref="chapter01-title"/>
         <itemref idref="chapter01"/>
+        <itemref idref="chapter02-image"/>
+        <itemref idref="chapter02-title"/>
         <itemref idref="chapter02"/>
+        <itemref idref="chapter03-image"/>
+        <itemref idref="chapter03-title"/>
         <itemref idref="chapter03"/>
+        <itemref idref="chapter04-image"/>
+        <itemref idref="chapter04-title"/>
         <itemref idref="chapter04"/>
+        <itemref idref="chapter05-image"/>
+        <itemref idref="chapter05-title"/>
         <itemref idref="chapter05"/>
+        <itemref idref="chapter06-image"/>
+        <itemref idref="chapter06-title"/>
         <itemref idref="chapter06"/>
+        <itemref idref="chapter07-image"/>
+        <itemref idref="chapter07-title"/>
         <itemref idref="chapter07"/>
+        <itemref idref="chapter08-image"/>
+        <itemref idref="chapter08-title"/>
         <itemref idref="chapter08"/>
+        <itemref idref="chapter09-image"/>
+        <itemref idref="chapter09-title"/>
         <itemref idref="chapter09"/>
         <itemref idref="epilogue"/>
         <itemref idref="biography"/>

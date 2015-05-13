@@ -44,20 +44,6 @@
 			</navLabel>
 			<content src="Text/prologue.xhtml"/>
 		</navPoint>
-		
-		<navPoint class="chapter" id="chapter01-title" playOrder="6">
-			<navLabel>
-				<text>Chapter 1</text>
-			</navLabel>
-			<content src="Text/chapter01-title.xhtml"/>
-		</navPoint>
-		
-		<navPoint class="chapter" id="chapter01-image" playOrder="7">
-			<navLabel>
-				<text>Chapter 1</text>
-			</navLabel>
-			<content src="Text/chapter01-image.xhtml"/>
-		</navPoint>
 
 		<navPoint class="chapter" id="chapter01" playOrder="8">
 			<navLabel>
