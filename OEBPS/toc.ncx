@@ -6,20 +6,20 @@
 		<meta content="0" name="dtb:maxPageNumber"/>
 	</head>
 	<docTitle>
-		<text>Your Book Title Goes in Here</text>
+		<text>Gyakutenryoku 〜Pinch wo Mate〜</text>
 	</docTitle>
 	<navMap>
 	
 		<navPoint class="chapter" id="title" playOrder="1">
 			<navLabel>
-				<text>Title Page</text>
+				<text>Title</text>
 			</navLabel>
 			<content src="Text/title.xhtml"/>
 		</navPoint>
 
 		<navPoint class="chapter" id="copyright" playOrder="2">
 			<navLabel>
-				<text>Copyright Page</text>
+				<text>Copyright</text>
 			</navLabel>
 			<content src="Text/copyright.xhtml"/>
 		</navPoint>
@@ -30,93 +30,86 @@
 			</navLabel>
 			<content src="Text/toc.xhtml"/>
 		</navPoint>
-		
-		<navPoint class="chapter" id="dedication" playOrder="4">
+
+		<navPoint class="chapter" id="preface-title" playOrder="4">
 			<navLabel>
-				<text>Dedication Page</text>
+				<text>Preface</text>
 			</navLabel>
-			<content src="Text/dedication.xhtml"/>
+			<content src="Text/preface-title.xhtml"/>
 		</navPoint>
 
-		<navPoint class="chapter" id="prologue" playOrder="5">
-			<navLabel>
-				<text>Prologue Page</text>
-			</navLabel>
-			<content src="Text/prologue.xhtml"/>
-		</navPoint>
-
-		<navPoint class="chapter" id="chapter01" playOrder="8">
+		<navPoint class="chapter" id="chapter01-image" playOrder="5">
 			<navLabel>
 				<text>Chapter 1</text>
 			</navLabel>
-			<content src="Text/chapter01.xhtml"/>
+			<content src="Text/chapter01-image.xhtml"/>
 		</navPoint>
 		
-		<navPoint class="chapter" id="chapter02" playOrder="9">
+		<navPoint class="chapter" id="chapter02-image" playOrder="6">
 			<navLabel>
 				<text>Chapter 2</text>
 			</navLabel>
-			<content src="Text/chapter02.xhtml"/>
+			<content src="Text/chapter02-image.xhtml"/>
 		</navPoint>
 		
-		<navPoint class="chapter" id="chapter03" playOrder="10">
+		<navPoint class="chapter" id="chapter03-image" playOrder="7">
 			<navLabel>
 				<text>Chapter 3</text>
 			</navLabel>
-			<content src="Text/chapter03.xhtml"/>
+			<content src="Text/chapter03-image.xhtml"/>
 		</navPoint>
 
-		<navPoint class="chapter" id="chapter04" playOrder="11">
+		<navPoint class="chapter" id="chapter04-image" playOrder="8">
 			<navLabel>
 				<text>Chapter 4</text>
 			</navLabel>
-			<content src="Text/chapter04.xhtml"/>
+			<content src="Text/chapter04-image.xhtml"/>
 		</navPoint>
 
-		<navPoint class="chapter" id="chapter05" playOrder="12">
+		<navPoint class="chapter" id="chapter05-image" playOrder="9">
 			<navLabel>
 				<text>Chapter 5</text>
 			</navLabel>
-			<content src="Text/chapter05.xhtml"/>
+			<content src="Text/chapter05-image.xhtml"/>
 		</navPoint>
 
-		<navPoint class="chapter" id="chapter06" playOrder="13">
+		<navPoint class="chapter" id="chapter06-image" playOrder="10">
 			<navLabel>
 				<text>Chapter 6</text>
 			</navLabel>
-			<content src="Text/chapter06.xhtml"/>
+			<content src="Text/chapter06-image.xhtml"/>
 		</navPoint>
 
-		<navPoint class="chapter" id="chapter07" playOrder="14">
+		<navPoint class="chapter" id="chapter07-image" playOrder="11">
 			<navLabel>
 				<text>Chapter 7</text>
 			</navLabel>
-			<content src="Text/chapter07.xhtml"/>
+			<content src="Text/chapter07-image.xhtml"/>
 		</navPoint>
 
-		<navPoint class="chapter" id="chapter08" playOrder="15">
+    <navPoint class="chapter" id="chapter08-image" playOrder="12">
 			<navLabel>
 				<text>Chapter 8</text>
 			</navLabel>
-			<content src="Text/chapter08.xhtml"/>
+			<content src="Text/chapter08-image.xhtml"/>
 		</navPoint>
 
-		<navPoint class="chapter" id="chapter09" playOrder="16">
+		<navPoint class="chapter" id="chapter09-image" playOrder="13">
 			<navLabel>
 				<text>Chapter 9</text>
 			</navLabel>
-			<content src="Text/chapter09.xhtml"/>
+			<content src="Text/chapter09-image.xhtml"/>
 		</navPoint>
 
-		<navPoint class="chapter" id="epilogue" playOrder="17">
+		<navPoint class="chapter" id="conclusion-title" playOrder="14">
 			<navLabel>
-				<text>Epilogue</text>
+				<text>Conclusion</text>
 			</navLabel>
-			<content src="Text/epilogue.xhtml"/>
+			<content src="Text/conclusion-title.xhtml"/>
 		</navPoint>
 		
 		
-		<navPoint class="chapter" id="biography" playOrder="18">
+		<navPoint class="chapter" id="biography" playOrder="15">
 			<navLabel>
 				<text>Biography</text>
 			</navLabel>
@@ -124,9 +117,9 @@
 		</navPoint>
 		
 		
-		<navPoint class="chapter" id="backcover" playOrder="19">
+		<navPoint class="chapter" id="backcover" playOrder="16">
 			<navLabel>
-				<text>Backcover</text>
+				<text>Back Cover</text>
 			</navLabel>
 			<content src="Text/backcover.xhtml"/>
 		</navPoint>
