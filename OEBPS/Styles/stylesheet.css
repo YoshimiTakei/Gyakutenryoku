@@ -1,5 +1,30 @@
 @namespace h "http://www.w3.org/1999/xhtml";
 
+div.content-item {
+  margin-bottom: 30px;
+}
+
+div.content-item a {
+  text-decoration: none; 
+}
+
+ul.subchapter {
+  list-style-type: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 0px;
+  margin-bottom: 0px
+}
+
+span.toc-chapter-ordinal {
+  font-size: 18px;
+}
+
+span.toc-chapter-title {
+  font-size: 20px;
+}
+
 .mainbody {
   display: block;
   font-size: 1em;
@@ -50,9 +75,6 @@ p {
 	text-indent: 1em;
 } 
 
-a {
-  color: #FF3366;
-}
 
 .chapter-title-container {
   margin-top: 16%;
@@ -68,4 +90,8 @@ a {
   font-size: 14px;
   margin-top: 7px;
   width: 400px;  
+}
+
+a {
+  color: #FF3366 !important;
 }
