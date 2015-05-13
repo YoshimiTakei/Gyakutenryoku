@@ -11,7 +11,7 @@
         <dc:publisher>講談社</dc:publisher>
         <dc:date>2013-08-17</dc:date>
 		
-        <meta name="cover" content="my-cover-image"/>
+        <meta name="cover" content="frontcover-eng"/>
 
     </metadata>
     <manifest>
@@ -33,11 +33,10 @@
         <item href="Text/chapter09.xhtml" id="chapter09" media-type="application/xhtml+xml"/>
         <item href="Text/epilogue.xhtml" id="epilogue" media-type="application/xhtml+xml"/>
         <item href="Text/biography.xhtml" id="biography" media-type="application/xhtml+xml"/>
-        <item href="Text/endnotes.xhtml" id="biography" media-type="application/xhtml+xml"/>
+        <item href="Text/endnotes.xhtml" id="endnotes" media-type="application/xhtml+xml"/>
         <item href="Text/backcover.xhtml" id="backcover" media-type="application/xhtml+xml"/>
-        <item href="Images/author.jpg" id="my-author-image" media-type="image/jpeg"/>
-        <item href="Images/cover.jpg" id="my-cover-image" media-type="image/jpeg"/>
-        <item href="Images/backcover.jpg" id="backcover-image" media-type="image/jpeg"/>
+        <item href="Images/frontcover-eng.png" id="frontcover-eng" media-type="image/png"/>
+        <item href="Images/backcover-eng.png" id="backcover-image" media-type="image/png"/>
         <item href="Styles/stylesheet.css" id="cascadingstylesheet" media-type="text/css"/>
         <item href="toc.ncx" id="tableofcontents" media-type="application/x-dtbncx+xml"/>
 		
