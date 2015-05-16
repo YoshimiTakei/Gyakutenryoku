@@ -3,13 +3,8 @@
     <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:opf="http://www.idpf.org/2007/opf" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	
         <dc:title>Gyakutenryoku ~Pinch wo Mate~</dc:title>
-		
         <dc:language>en</dc:language>
-		
-        <dc:identifier id="uuid_id" opf:scheme="uuid">isbn-000-0-000-00000-0</dc:identifier>
         <dc:creator>Sashihara Rino</dc:creator>
-        <dc:publisher>講談社</dc:publisher>
-        <dc:date>2013-08-17</dc:date>
 		
         <meta name="cover" content="frontcover-eng"/>
 
@@ -17,7 +12,9 @@
     <manifest>
         <item href="Text/bookcover.xhtml" id="bookcover" media-type="application/xhtml+xml"/>
         <item href="Text/title.xhtml" id="title" media-type="application/xhtml+xml"/>
-        <item href="Text/copyright.xhtml" id="copyright" media-type="application/xhtml+xml"/>
+        <item href="Text/foreword-english.xhtml" id="foreword-english" media-type="application/xhtml+xml"/>
+        <item href="Text/foreword-japanese.xhtml" id="foreword-japanese" media-type="application/xhtml+xml"/>
+        <item href="Text/contribution.xhtml" id="contribution" media-type="application/xhtml+xml"/>
         <item href="Text/toc.xhtml" id="toc" media-type="application/xhtml+xml"/>
         <item href="Text/preface-title.xhtml" id="preface-title" media-type="application/xhtml+xml"/>
         <item href="Text/preface.xhtml" id="preface" media-type="application/xhtml+xml"/>
@@ -53,19 +50,22 @@
         <item href="Text/biography.xhtml" id="biography" media-type="application/xhtml+xml"/>
         <item href="Text/endnotes.xhtml" id="endnotes" media-type="application/xhtml+xml"/>
         <item href="Text/backcover.xhtml" id="backcover" media-type="application/xhtml+xml"/>
+        <item href="Text/final-words.xhtml" id="final-words" media-type="application/xhtml+xml"/>
         <item href="Images/frontcover-eng.png" id="frontcover-eng" media-type="image/png"/>
         <item href="Images/backcover-eng.png" id="backcover-image" media-type="image/png"/>
         <item href="Styles/stylesheet.css" id="cascadingstylesheet" media-type="text/css"/>
         <item href="toc.ncx" id="tableofcontents" media-type="application/x-dtbncx+xml"/>
-		
     </manifest>
+
     <spine toc="tableofcontents">
         <itemref idref="bookcover" linear="no"/>
         <itemref idref="title"/>
-        <itemref idref="copyright"/>
-        <itemref idref="toc"/>
+        <itemref idref="foreword-english"/>
+        <itemref idref="foreword-japanese"/>
+        <itemref idref="contribution"/>
         <itemref idref="preface-title"/>
         <itemref idref="preface"/>
+        <itemref idref="toc"/>
         <itemref idref="chapter01-image"/>
         <itemref idref="chapter01-title"/>
         <itemref idref="chapter01"/>
@@ -98,9 +98,9 @@
         <itemref idref="biography"/>
         <itemref idref="endnotes"/>
         <itemref idref="backcover"/>
+        <itemref idref="final-words"/>
     </spine>
     <guide>
         <reference href="Text/bookcover.xhtml" title="Cover Image" type="cover"/>
-        <reference href="Text/toc.xhtml" title="Table Of Contents" type="toc"/>
     </guide>
 </package>

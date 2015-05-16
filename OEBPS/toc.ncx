@@ -17,111 +17,137 @@
 			<content src="Text/title.xhtml"/>
 		</navPoint>
 
-		<navPoint class="chapter" id="copyright" playOrder="2">
+		<navPoint class="chapter" id="foreword-english" playOrder="2">
 			<navLabel>
-				<text>Copyright</text>
+				<text>Foreword</text>
 			</navLabel>
-			<content src="Text/copyright.xhtml"/>
+			<content src="Text/foreword-english.xhtml"/>
 		</navPoint>
 
-		<navPoint class="chapter" id="toc" playOrder="3">
+		<navPoint class="chapter" id="foreword-japanese" playOrder="3">
 			<navLabel>
-				<text>Table of Contents</text>
+				<text>翻訳者まえがき</text>
 			</navLabel>
-			<content src="Text/toc.xhtml"/>
+			<content src="Text/foreword-japanese.xhtml"/>
 		</navPoint>
 
-		<navPoint class="chapter" id="preface-title" playOrder="4">
+		<navPoint class="chapter" id="contribution" playOrder="4">
+			<navLabel>
+				<text>Contribution</text>
+			</navLabel>
+			<content src="Text/contribution.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="preface-title" playOrder="5">
 			<navLabel>
 				<text>Preface</text>
 			</navLabel>
 			<content src="Text/preface-title.xhtml"/>
 		</navPoint>
 
-		<navPoint class="chapter" id="chapter01-image" playOrder="5">
+		<navPoint class="chapter" id="toc" playOrder="6">
+			<navLabel>
+        <text>テーブル・オブ・コンテンツ</text>
+			</navLabel>
+			<content src="Text/toc.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="chapter01-image" playOrder="7">
 			<navLabel>
 				<text>Chapter 1</text>
 			</navLabel>
 			<content src="Text/chapter01-image.xhtml"/>
 		</navPoint>
 		
-		<navPoint class="chapter" id="chapter02-image" playOrder="6">
+		<navPoint class="chapter" id="chapter02-image" playOrder="8">
 			<navLabel>
 				<text>Chapter 2</text>
 			</navLabel>
 			<content src="Text/chapter02-image.xhtml"/>
 		</navPoint>
 		
-		<navPoint class="chapter" id="chapter03-image" playOrder="7">
+		<navPoint class="chapter" id="chapter03-image" playOrder="9">
 			<navLabel>
 				<text>Chapter 3</text>
 			</navLabel>
 			<content src="Text/chapter03-image.xhtml"/>
 		</navPoint>
 
-		<navPoint class="chapter" id="chapter04-image" playOrder="8">
+		<navPoint class="chapter" id="chapter04-image" playOrder="10">
 			<navLabel>
 				<text>Chapter 4</text>
 			</navLabel>
 			<content src="Text/chapter04-image.xhtml"/>
 		</navPoint>
 
-		<navPoint class="chapter" id="chapter05-image" playOrder="9">
+		<navPoint class="chapter" id="chapter05-image" playOrder="11">
 			<navLabel>
 				<text>Chapter 5</text>
 			</navLabel>
 			<content src="Text/chapter05-image.xhtml"/>
 		</navPoint>
 
-		<navPoint class="chapter" id="chapter06-image" playOrder="10">
+		<navPoint class="chapter" id="chapter06-image" playOrder="12">
 			<navLabel>
 				<text>Chapter 6</text>
 			</navLabel>
 			<content src="Text/chapter06-image.xhtml"/>
 		</navPoint>
 
-		<navPoint class="chapter" id="chapter07-image" playOrder="11">
+		<navPoint class="chapter" id="chapter07-image" playOrder="13">
 			<navLabel>
 				<text>Chapter 7</text>
 			</navLabel>
 			<content src="Text/chapter07-image.xhtml"/>
 		</navPoint>
 
-    <navPoint class="chapter" id="chapter08-image" playOrder="12">
+    <navPoint class="chapter" id="chapter08-image" playOrder="14">
 			<navLabel>
 				<text>Chapter 8</text>
 			</navLabel>
 			<content src="Text/chapter08-image.xhtml"/>
 		</navPoint>
 
-		<navPoint class="chapter" id="chapter09-image" playOrder="13">
+		<navPoint class="chapter" id="chapter09-image" playOrder="15">
 			<navLabel>
 				<text>Chapter 9</text>
 			</navLabel>
 			<content src="Text/chapter09-image.xhtml"/>
 		</navPoint>
 
-		<navPoint class="chapter" id="conclusion-title" playOrder="14">
+		<navPoint class="chapter" id="conclusion-title" playOrder="16">
 			<navLabel>
 				<text>Conclusion</text>
 			</navLabel>
 			<content src="Text/conclusion-title.xhtml"/>
 		</navPoint>
 		
-		
-		<navPoint class="chapter" id="biography" playOrder="15">
+		<navPoint class="chapter" id="biography" playOrder="17">
 			<navLabel>
 				<text>Biography</text>
 			</navLabel>
 			<content src="Text/biography.xhtml"/>
 		</navPoint>
+
+		<navPoint class="chapter" id="endnotes" playOrder="18">
+			<navLabel>
+				<text>End Notes</text>
+			</navLabel>
+			<content src="Text/endnotes.xhtml"/>
+		</navPoint>
 		
-		
-		<navPoint class="chapter" id="backcover" playOrder="16">
+		<navPoint class="chapter" id="backcover" playOrder="19">
 			<navLabel>
 				<text>Back Cover</text>
 			</navLabel>
 			<content src="Text/backcover.xhtml"/>
+		</navPoint>
+
+		<navPoint class="chapter" id="backcover" playOrder="20">
+			<navLabel>
+				<text>Thank You</text>
+			</navLabel>
+			<content src="Text/final-words.xhtml"/>
 		</navPoint>
 		
 	</navMap>
